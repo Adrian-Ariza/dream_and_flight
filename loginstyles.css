@@ -1,0 +1,99 @@
+body,html{
+    margin:0;
+    
+}
+.fondo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    min-height: 100vh;
+    position: absolute;
+   
+    
+}
+.fondo:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(215, 198, 255, 0.5);
+    background: -moz-linear-gradient(left, rgba(215, 198, 255, 0.5) 0%, rgba(176, 181, 252, 0.5) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(215, 198, 255, 0.5)), color-stop(100%, rgba(176, 181, 252, 0.5)));
+    background: -webkit-linear-gradient(left, rgba(215, 198, 255, 0.5) 0%, rgba(176, 181, 252, 0.5) 100%);
+    background: -o-linear-gradient(left, rgba(215, 198, 255, 0.5) 0%, rgba(176, 181, 252, 0.5) 100%);
+    background: -ms-linear-gradient(left, rgba(215, 198, 255, 0.5) 0%, rgba(176, 181, 252, 0.5) 100%);
+    background: linear-gradient(to right, rgba(215, 198, 255, 0.5) 0%, rgba(176, 181, 252, 0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3e1c', endColorstr='#ff8c00', GradientType=1 );
+    opacity: 0.8;
+    
+    
+}
+h2{
+    text-align:center;
+    font-family: 'calibri';
+    color: #24303c;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.container {
+    position: relative;
+    border-radius: 5px;
+    background-color:  #f2f2f2;
+    width:50%; 
+    padding: 10px;
+    margin-top:50px;
+    margin-left: 25%;
+    z-index: 2;
+    
+}
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'calibri';
+    color:  #24303c;
+}
+label {
+    font-family: 'calibri';
+    color:  #24303c;
+    font-weight: bold;
+
+}
+input[type=submit], input[type=button] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #1f53c5;
+    font-family: 'calibri';
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.centered_button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+a:visited,a:hover{
+    color:blue;
+}
+.logo {
+    float: left;
+    height: auto;
+    margin-top:-10px;
+    margin-left: 15px;
+}
+.footer{
+    margin-top: 20px;
+    font-family: 'calibri';
+    text-align: center;
+    color:  #24303c;
+}
